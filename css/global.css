@@ -9,7 +9,7 @@
   --color-secondary: #fca61e;
   --color-heading: #212b36;
   --color-text-body: #637381;
-  --color-primary-light: #F2F2FE;
+  --color-primary-light: #f2f2fe;
 }
 body {
   font-family: "Public Sans", sans-serif;
@@ -117,7 +117,6 @@ h4 span:nth-child(2) {
   font-size: 48px;
   font-weight: 800;
   line-height: 64px;
-
 }
 #about-content #bio {
   color: var(--color-text-body);
@@ -125,9 +124,8 @@ h4 span:nth-child(2) {
   font-weight: 400;
   line-height: 30px;
   margin: 16px 0;
-
 }
-#about-me{
+#about-me {
   background-color: var(--color-primary-light);
 }
 p span:first-child {
@@ -135,9 +133,8 @@ p span:first-child {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-
 }
-p span:nth-child(2){
+p span:nth-child(2) {
   color: var(--color-heading);
   font-size: 20px;
   font-weight: 700;
@@ -162,11 +159,10 @@ p span:nth-child(2){
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-#score-content h4, #score-content h2 {
+#score-content h4,
+#score-content h2 {
   text-align: center;
-  
 }
 #scores {
   display: flex;
@@ -174,13 +170,11 @@ p span:nth-child(2){
   gap: 32px;
   width: 100%;
   padding: 32px 0;
-
 }
-#scores div{
+#scores div {
   background-color: var(--color-primary);
   padding: 20px 30px;
   border-radius: 16px;
-
 }
 #score-content h4 {
   color: var(--color-primary);
@@ -189,14 +183,13 @@ p span:nth-child(2){
 #score-content h2 {
   line-height: 64px;
 }
-#scores div span:first-child{
+#scores div span:first-child {
   color: white;
   font-weight: 200;
 }
-#scores div span:nth-child(2){
+#scores div span:nth-child(2) {
   color: white;
   font-weight: 700;
-
 }
 #achievements {
   padding: 128px 0;
@@ -205,33 +198,28 @@ p span:nth-child(2){
   background-image: url("../assets/images/background-prefer.png");
   background-size: cover;
 }
-.preferences{
+.preferences {
   display: flex;
   justify-content: space-between;
   padding-top: 128px;
   padding-bottom: 128px;
   gap: 32px;
-
 }
-#prefer-content h4{
+#prefer-content h4 {
   color: var(--color-primary);
   font-weight: 600;
   font-size: 24px;
-
 }
 #prefer-content h2 {
   font-size: 48px;
   font-weight: 800;
   padding-bottom: 12px;
-
 }
-#prefer-content p{
+#prefer-content p {
   color: var(--color-text-body);
   padding: 12px 0;
-
-
 }
-#prefer-content{
+#prefer-content {
   width: 50%;
 }
 #prefer-images {
@@ -239,12 +227,12 @@ p span:nth-child(2){
   display: flex;
   gap: 24px;
 }
-#img-1{
+#img-1 {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-#img-2{
+#img-2 {
   padding-top: 32px;
   display: flex;
   flex-direction: column;
@@ -254,23 +242,24 @@ p span:nth-child(2){
   text-align: center;
   padding-top: 128px;
   padding-bottom: 32px;
+  color: white;
 }
-#title h4{
+#title h4 {
   font-weight: 600;
 }
-#title h2{
+#title h2 {
   font-weight: 800;
+  color: white;
 }
 #display {
   display: flex;
-
 }
 #cre-1 {
   width: 50%;
 }
-#display p, #display h3{
+#display p,
+#display h3 {
   text-align: center;
-
 }
 #end {
   text-align: center;
@@ -280,18 +269,29 @@ p span:nth-child(2){
   padding-top: 32px;
   line-height: 30px;
 }
-#display #date{
+#display #date {
   font-size: 20px;
   font-weight: 400;
   color: var(--color-text-body);
   padding-top: 24px;
   padding-bottom: 16px;
 }
-#display h3{
+#display h3 {
   font-size: 32px;
   font-weight: 700;
 }
 #content p {
   color: var(--color-text-body);
 }
+#creative {
+  position: relative;
+}
 
+.bg-creative {
+  position: absolute;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  background-color: var(--color-primary);
+  z-index: -1;
+}
